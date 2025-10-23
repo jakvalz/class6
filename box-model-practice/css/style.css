@@ -1,7 +1,49 @@
-/* Please make the h1 30px, with a little padding on the left, and thin red border */
+/* universal styles */
+* {
+    margin: 0;
+    padding: 0;
+}
 
-/* Please make the h2 25px, with padding on top/bottom, a thick gold border, and margin on the top/bottom */
+/* Please make the h1 30px, 
+with a little padding on 
+the left, and thin red border 
+*/
+h1 {
+    font-size: 30px;
+    padding-left: 50px;
+    border: 3px solid red;
+}
 
-/* Please make the spans have a thin black border, a little padding, and blue */
 
-/* Please make the section 25% width, 200px tall, centered, and with a thin purple border */
+/* Please make the h2 25px, 
+with padding on top/bottom, 
+a thick gold border, and margin 
+on the top/bottom */
+h2 {
+    font-size: 25px;
+    border: 10px solid gold;
+    padding: 5px 0;
+    margin: 10px 0;
+
+}
+
+
+/* Please make the spans have a 
+thin black border, a little padding, 
+and blue */
+span {
+    border: 3px solid black;
+    padding: 2px;
+    color: blue;
+}
+
+
+/* Please make the section 25% width, 
+200px tall, centered, and with a thin 
+purple border */
+section {
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+    border: 3px solid purple;
+}

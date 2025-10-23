@@ -1,9 +1,24 @@
 /* NO classes or IDs */
-
+/* [space] + ~ > */
 /* Please make only "Just kidding!" yellow */
-
+section > h2 {
+    color: lightyellow;
+}
 /* Please make only "twitter" red and 20px */
-
-/* Please make "Really hot" purple & "Like WILD hot" larger and blue  */
-
+aside p > a {
+    color: red;
+    font-size: 20px;
+}
+/* /* Please make "Really hot" purple & */
+article h2 {
+    color: purple;
+}
+ /* "Like WILD hot" larger and blue  */
+h2 + h2 {
+    font-size: 25px;
+    color: blue;
+}
 /* Please make only bob and pizza green */
+ul ~ ul a {
+    color: green;
+}
